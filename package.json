@@ -1,0 +1,17 @@
+{
+  "name": "chat-gpt-make-consistent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.6.1",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "openai": "^4.89.1"
+  }
+}

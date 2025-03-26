@@ -1,7 +1,7 @@
-1. pnpm init
+1. run `pnpm i`
 
-2. "add the index.js and beforeText.txt into folder"
+1. copy `.env.example` and rename to `.env`
 
-3. pnpm install openai
+1. update `OPENAI_API_KEY` in `.env`
 
-4. node index.js
+1. run `pnpm run start`
