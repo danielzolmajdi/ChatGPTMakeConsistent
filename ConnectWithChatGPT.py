@@ -1,5 +1,7 @@
 from pathlib import Path
 from openai import OpenAI
+from dotenv import load_dotenv
+import os
 
 textList = []
 
@@ -7,9 +9,10 @@ with open("beforeText.txt", "r") as file:
     for line in file:
         textList.append(line.strip())
     
+load_dotenv()
+getAPIKey = os.getenv("OPENAIAPIKEY")
 
-
-client = OpenAI(api_key = "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")
+client = OpenAI(api_key = getAPIKey)
 
 
 for i in range(len(textList)):
